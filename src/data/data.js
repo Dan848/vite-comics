@@ -59,7 +59,7 @@ const bridgeSection = [
         text: "comic shop locator"
     },
     {
-        src: "buy-dc-power-visa.svg",
+        src: "buy-dc-power-visa.png",
         text: "dc power visa"
     }
 ]

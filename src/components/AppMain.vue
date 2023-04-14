@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid p-5 text-white">
+    <div class="p-5 text-white m-0">
     <h2>---------Content goes here--------</h2>
     </div>
 </template>
