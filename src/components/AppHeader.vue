@@ -35,7 +35,7 @@ export default {
     @use "../assets/styles/var.scss" as *;
     header{
         img{
-            max-width: 70px;
+            max-width: 80px;
         }
         li {
             &:hover{
