@@ -186,3 +186,5 @@ const footerLinks = [
         ]
     },
 ]
+
+export {headerLinks, bridgeSection, footerLinks}
