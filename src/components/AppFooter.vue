@@ -11,9 +11,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col">
-                        
-                    </div>
                 </div>
             </div>
         </div>
@@ -52,13 +49,18 @@ import  {footerLinks} from "../data/data.js"
 <style lang="scss" scoped>
     @use "../assets/styles/var.scss" as *;
     .footer-top{
-        background: url("./img/footer-bg.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+    background-image: url("./img/dc-logo-bg.png"), url("./img/footer-bg.jpg");
+    background-position: right center, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%, cover;
         
         a {
             text-decoration: none;
             color: white;
+            &:hover {
+                opacity: 100!important;
+                text-decoration: underline;
+            }
         }
     }
     .footer-bottom{
