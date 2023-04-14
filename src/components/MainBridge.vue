@@ -32,7 +32,6 @@ import  {bridgeSection} from "../data/data.js"
         img{
             max-width: 60px;
             max-height: 60px;
-            filter: brightness(100)
         }
     }
 </style>
