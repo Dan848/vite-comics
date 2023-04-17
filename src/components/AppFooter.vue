@@ -1,8 +1,8 @@
 <template>
     <footer>
-        <div class="footer-top p-5">
+        <div class="footer-top py-5">
             <div class="container">
-                <div class="row">
+                <div class="row flex-wrap">
                     <div v-for="(list, index) in footerUl" :key="index" class="col">
                         <h4 class="text-white text-uppercase">{{ list.title }}</h4>
                         <ul class="list-unstyled">
@@ -49,10 +49,10 @@ import  {footerLinks} from "../data/data.js"
 <style lang="scss" scoped>
     @use "../assets/styles/var.scss" as *;
     .footer-top{
-    background-image: url("./img/dc-logo-bg.png"), url("./img/footer-bg.jpg");
-    background-position: right center, center center;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 25%, cover;
+        background-image: url("./img/dc-logo-bg.png"), url("./img/footer-bg.jpg");
+        background-position: right center, center center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 25%, cover;
         
         a {
             text-decoration: none;
@@ -69,6 +69,10 @@ import  {footerLinks} from "../data/data.js"
             border: 2px solid $dc-primary;
             background-color: $dc-bg-footer;
             font-weight: 600;
+            &:hover {
+                cursor: pointer;
+                filter: invert(1);
+            }
         }
     }
 </style>
